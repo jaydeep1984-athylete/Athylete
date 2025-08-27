@@ -720,7 +720,8 @@ Driven by a passion for sports science, medical innovation, and athlete wellness
 
                     // 2. Send data to a server (example using fetch API)
                     // IMPORTANT: Replace '/api/book-consultation' with your actual backend endpoint for consultations.
-                    fetch('http://localhost:3000/api/book-consultation', { 
+                    // fetch('http://localhost:3000/api/book-consultation', { 
+                    fetch('https://athylete-web.onrender.com/api/send-contact-message', {     
                         method: 'POST', 
                         headers: {
                             'Content-Type': 'application/json',
@@ -764,7 +765,7 @@ Driven by a passion for sports science, medical innovation, and athlete wellness
 
                     // 2. Send data to a server
                     // IMPORTANT: Replace '/api/send-contact-message' with your actual backend endpoint for contact messages.
-                    fetch('http://localhost:3000/api/send-contact-message', { 
+                    fetch('https://athylete-web.onrender.com/api/send-contact-message', { 
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
